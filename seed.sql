@@ -37,24 +37,24 @@ values
     ('Washington Redskins');
 
     insert into players
-        (name)
+        (name, team_id)
     values
-        ('Mitchell Trubisky'),
-        ('Russel Wilson'),
-        ('Melvin Gordon'),
-        ('Christian McCaffrey'),
-        ('Dalvin Cook'),
-        ('Phillip Lindsay'),
-        ('Josh Gordon'),
-        ('Robert Woods'),
-        ('Evan Engram'),
-        ('T.Y. Hilton'),
-        ('Dede Westbrook'),
-        ('Chris Herndon'),
-        ('Cordarrelle Patterson'),
-        ('Eagles D/ST'),
-        ('Panthers D/ST'),
-        ('Robbie Gould');
+        ('Mitchell Trubisky', 6),
+        ('Russel Wilson', 29),
+        ('Melvin Gordon', 27),
+        ('Christian McCaffrey', 5),
+        ('Dalvin Cook', 18),
+        ('Phillip Lindsay', 10),
+        ('Josh Gordon', 19),
+        ('Robert Woods', 26),
+        ('Evan Engram', 21),
+        ('T.Y. Hilton', 14),
+        ('Dede Westbrook', 15),
+        ('Chris Herndon', 22),
+        ('Cordarrelle Patterson', 19),
+        ('Eagles D/ST', 24),
+        ('Panthers D/ST', 5),
+        ('Robbie Gould', 28);
 
         insert into positions
             (name)
