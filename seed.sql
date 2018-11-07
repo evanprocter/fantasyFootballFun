@@ -26,8 +26,8 @@ values
     ('Oakland Raiders'),
     ('Philadelphia Eagles'),
     ('Pittsburgh Steelers'),
-    ('St. Louis Rams'),
-    ('San Diego Chargers'),
+    ('Los Angeles Rams'),
+    ('Los Angeles Chargers'),
     ('San Francisco 49ers'),
     ('Seattle Seahawks'),
     ('Tampa Bay Buccaneers'),
@@ -35,6 +35,21 @@ values
     ('Washington Redskins');
 
     insert into players
-        (name, position, team_id)
+        (name, position)
     values
-        ('Mitchell Trubisky', )
+        ('Mitchell Trubisky', 'quarterback'),
+        ('Russel Wilson', 'quarterback'),
+        ('Melvin Gordon', 'runningback'),
+        ('Christian McCaffrey', 'runningback'),
+        ('Dalvin Cook', 'runningback'),
+        ('Phillip Lindsay', 'runningback'),
+        ('Josh Gordon', 'reciever'),
+        ('Robert Woods', 'reciever'),
+        ('Evan Engram', 'tightend'),
+        ('T.Y. Hilton', 'reciever'),
+        ('Dede Westbrook', 'reciever'),
+        ('Chris Herndon', 'tightend'),
+        ('Cordarrelle Patterson', 'reciever/ runningback'),
+        ('Eagles D/ST', 'defense'),
+        ('Panthers D/ST', 'defense'),
+        ('Robbie Gould', 'kicker');
