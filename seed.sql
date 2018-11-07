@@ -163,4 +163,4 @@ values
                 ('kicks 1-39', 11, 16),
                 ('kicks 40-49', 6, 16),
                 ('kicks 50+', 1, 16),
-                ('extra points made', 17, 16),
+                ('extra points made', 17, 16);
