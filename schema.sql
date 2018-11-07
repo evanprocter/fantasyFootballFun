@@ -8,7 +8,6 @@ create table teams (
 
 create table players (
     id serial primary key,
-    number integer,
     position text,
     team_id integer references teams (id),
     name text

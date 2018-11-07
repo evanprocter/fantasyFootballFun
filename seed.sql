@@ -33,3 +33,8 @@ values
     ('Tampa Bay Buccaneers'),
     ('Tennessee Titans'),
     ('Washington Redskins');
+
+    insert into players
+        (name, position, team_id)
+    values
+        ('Mitchell Trubisky', )
