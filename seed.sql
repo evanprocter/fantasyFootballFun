@@ -57,13 +57,40 @@ values
         ('Robbie Gould', 28);
 
         insert into positions
-            (name)
+            (name, player_id)
         values
-            ('quarterback'),
-            ('runningback'),
-            ('reciever'),
-            ('defense'),
-            ('kicker');
+            ('quarterback', 1),
+            ('quarterback', 2),
+            ('runningback', 3),
+            ('runningback', 4),
+            ('runningback', 5),
+            ('runningback', 6),
+            ('reciever', 7),
+            ('reciever', 8),
+            ('tightend', 9),
+            ('reciever', 10),
+            ('reciever', 11),
+            ('tightend', 12),
+            ('reciever', 13),
+            ('defense', 14),
+            ('defense', 15),
+            ('kicker', 16);
+
+            -- insert into fantasyTeams
+            --     (name)
+            -- values
+            --     ('No Skill Just Intangibles'),
+            --     ('The True King Juul Snow'),
+            --     ('Brooxie Badazz'),
+            --     ('Prime Time'),
+            --     ('The Fighting Cox'),
+            --     ('Team McClendon'),
+            --     ('League Champions'),
+            --     ('Frat Stafford'),
+            --     ('Team Patterson'),
+            --     ('Procnotmyprez House of Payne'),
+            --     ('Bush League'),
+            --     ('Team Dad');
 
             insert into stats
                 (name, stat, player_id)
@@ -164,3 +191,8 @@ values
                 ('kicks 40-49', 6, 16),
                 ('kicks 50+', 1, 16),
                 ('extra points made', 17, 16);
+
+                    -- insert into fantasyTeamsStats
+                    --     (name, fantasyTeamsStat, fantasyteam_id)
+                    -- values
+                    --     ('points for', 1132, 1);
